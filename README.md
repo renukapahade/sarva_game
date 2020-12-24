@@ -11,13 +11,13 @@ Once the game starts, a key is displayed on the screen, which the user needs to 
 Every time the user presses a key/or after the timeout of 5 seconds, user response and the actual key is sent to the server to evaluate the score and lives left.
 
 Game Rules:
-> **+1** correct match
+> **+1**  correct match
 
-> **-1** incorrect match
+> **-1**  incorrect match
 
-> **0**  no entry (miss)
+> **0**   no entry (miss)
 
-> **game over** - after 3 consecutive misses
+> **game over**   after 3 consecutive misses
 
 
 ## Installation
