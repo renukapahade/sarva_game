@@ -44,7 +44,8 @@ npm start
 ## By default
 
 ```
-server: http://localhost:5000
+server reponses: Terminal console
+client: http://localhost:5000
 ```
 
 ## Directory structure
