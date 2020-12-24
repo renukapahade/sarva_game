@@ -9,11 +9,15 @@ The game server/client are implemented using the express framework, the server-c
 When a new client communication is made, the rules of the game are displayed with a timer of 5 seconds.
 Once the game starts, a key is displayed on the screen, which the user needs to press within a timeout of 5 seconds.
 Every time the user presses a key/or after the timeout of 5 seconds, user response and the actual key is sent to the server to evaluate the score and lives left.
+
 Game Rules:
-> +1 correct match
-> -1 incorrect match
-> 0  no entry (miss)
-> game over - after 3 consecutive misses
+> **+1** correct match
+
+> **-1** incorrect match
+
+> **0**  no entry (miss)
+
+> **game over** - after 3 consecutive misses
 
 
 ## Installation
